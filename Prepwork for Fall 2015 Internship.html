@@ -1,0 +1,817 @@
+<!DOCTYPE html><html>
+
+<head>
+<meta charset="utf-8">
+<title>Prepwork for Fall 2015 Internship</title>
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+</head>
+<body>
+<h1 id="toc_0">Summer Prepwork Guidebook</h1>
+
+<h2 id="toc_1">Contents</h2>
+
+<ol>
+<li><a href='#toc_2'>Welcome message</a></li>
+<li><a href='#toc_3'>Calendar for meetings</a></li>
+<li><a href='#toc_4'>Knowledge expectations</a></li>
+<li><a href='#toc_5'>Learning Outcomes</a></li>
+<li><a href='#toc_9'>Prepwork curriculum</a></li>
+</ol>
+
+<h1 id="toc_2">Welcome to OC Tanner and the Summer of Learning</h1>
+
+<p>We are very excited to begin learning with you. Over the next 12 weeks you will be learning how to think like a developer, how to write programs in both Java and Angular.js, and how developers work <em>in the wild</em>. </p>
+
+<p>The Summer of Learning is open to anyone who wants to learn with us. We will host weekly meetings to give participants a place to discuss what they learned during the week, as well as introduce some topics not covered in the self-paced courses. We will periodically have project days so that we use our new knowledge creatively and work together. Those who will be interns in the Fall (or are on the alternates list) are strongly encouraged to come to the weekly meetings, but they are not required.</p>
+
+<p>We hope that you find this collection of resources helpful and entertaining. If you have any questions or feedback for us, please share with us as soon as you can. This will allow us to help you while it is relevant, and if an issue may affect others, we can get information to them quickly.</p>
+
+<p>Once again, welcome! We hope you are as excited to get started as we are!</p>
+<p><a href='#toc_1'>back to contents</a></p>
+
+<h1 id="toc_3">Calendar for Summer study groups</h1>
+
+<h4>Discussion/ speaker days will allow time for questions to be answered/ pair work with mentors as well as a group discussion about a cool topic.</h4>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: right">Date</th>
+<th style="text-align: center">Plan</th>
+<th style="text-align: left">Topic</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: right">June 4</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">June 11</td>
+<td style="text-align: center">Project (2 in 1 day!)</td>
+<td style="text-align: left"><em>Design project: Tearing Down and Mocking Up Facebook</em></td>
+</tr>
+<tr>
+<td style="text-align: right">&hellip;</td>
+<td style="text-align: center">&hellip;</td>
+<td style="text-align: left"><em>Software Engineering project: Applied Engineering</em></td>
+</tr>
+<tr>
+<td style="text-align: right">June 18</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">June 25</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">July 2</td>
+<td style="text-align: center">No meeting for holiday</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">July 9</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">July 16</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">July 23</td>
+<td style="text-align: center">Project</td>
+<td style="text-align: left"><em>Make a game in Java</em></td>
+</tr>
+<tr>
+<td style="text-align: right">July 30</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">August 6</td>
+<td style="text-align: center">Project</td>
+<td style="text-align: left"><em>Non-intimidating coding-interview style group questions</em></td>
+</tr>
+<tr>
+<td style="text-align: right">August 13</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">August 20</td>
+<td style="text-align: center">Discussion / speaker</td>
+<td style="text-align: left"></td>
+</tr>
+<tr>
+<td style="text-align: right">August 27</td>
+<td style="text-align: center">Project</td>
+<td style="text-align: left"><em>Angular app- group input to decide topic</em></td>
+</tr>
+</tbody>
+</table>
+<p><a href='#toc_1'>back to contents</a></p>
+
+<h1 id="toc_4">Knowledge Expectations</h1>
+
+<p>When we begin the internship in the Fall, our goal is to have everyone on the same base level. This will aid in pairing, so that when you pair, the mentor will know where your knowledge is and can set goals and expectations from there.</p>
+
+<p>If you follow this guide and the provided calendar, you will have met the expectations we have for interns entering this Fall. </p>
+
+<p>If you begin to feel like you are behind, or having to leave things &lsquo;half-finished&rsquo; to keep up with the calendar, reach out to a mentor or the intern lead early and often! Treat your learning the way you would an Agile project. Keeping conversations and evaluation short and frequent can save much headache and wasted time!</p>
+
+<hr>
+
+<h3>These are the technologies you need to be familiar with.</h3>
+
+<ul>
+<li>HTML/ CSS</li>
+<li>JS</li>
+<li>Angular.js</li>
+<li>git &amp; GitHub</li>
+<li>Java</li>
+<li>Computer Science concepts</li>
+<li>Software &amp; Web development cycle</li>
+</ul>
+<p><a href='#toc_1'>back to contents</a></p>
+<h1 id="toc_5">Intro to Software Design &amp; Process</h1>
+
+<h2 id="toc_6">Learning Outcomes:</h2>
+
+<p>The Design Process</p>
+
+<ul>
+<li>Describe the design process</li>
+<li>How does the designer involove the client/user in the design process?</li>
+<li>What are some ways of communicating with a user to understand their needs &amp; goals?</li>
+<li>What is friction, as it applies to design?</li>
+<li>What tools exist to help the designer reduce friction?</li>
+</ul>
+
+<p>On Visual Design</p>
+
+<ul>
+<li>What is meant by <q>good design?</q></li>
+<li>What are some established design patterns for visual content? </li>
+<li>What information is each pattern best suited for?</li>
+<li>How does the grid system help designers design sites?</li>
+<li>What advantages/ disadvantages do you see in this method?</li>
+<li>How can you use typography to influence a visitor&rsquo;s actions in a web page? </li>
+</ul>
+
+<p>On Mockups</p>
+
+<ul>
+<li>What is a mockup? How are they used in design?</li>
+<li>Think about the tradeoff between time spent planning design vs. designing as you go. Consider the clien&rsquo;t reactions to these methods as well.</li>
+<li>Use mockups to plan different kinds of web sites. (commerce, personal, large company, small business, tools/ apps)</li>
+</ul>
+
+<p>On the Principles of Software Engineering</p>
+
+<ul>
+<li>How do software engineers approach a problem? How do you think about problems? Did this section influence your approach to problem solving?</li>
+<li>Is software engineering only concerned with writing code (a product)? Why would process be so important?</li>
+</ul>
+
+<p>On Agile Development</p>
+
+<ul>
+<li>What were some shorcomings of the <q>old</q> project management techniques?</li>
+<li>How does Agile development address these problems?</li>
+<li>Describe XP and some techniques employed by this method</li>
+<li>What is SCRUM?</li>
+<li>How do we get a user story from a product?</li>
+<li>Describe what a user story contains? What should a user story not contain?</li>
+<li>Describe the steps to take in completing an Agile project. (Perhaps by starting with &ldquo;Gathering requirements&hellip;)</li>
+<li>Describe Test Driven Development (TDD) and Behavior Driven Development (BDD)</li>
+</ul>
+
+<p>On Pseudocoding and Good Software Design</p>
+
+<ul>
+<li>Why do we use pseudocode?</li>
+<li>What is modularity?</li>
+<li>Pseudocode a common task, like doing laundry.</li>
+<li>How does a modular approach to software design help improve design? </li>
+<li>What are the SOLID principles of Object-Oriented software design?</li>
+</ul>
+<p><a href='#toc_1'>back to contents</a></p>
+<h1 id="toc_7">Introductory Computer Science</h1>
+
+<h2 id="toc_8">Learning Outcomes:</h2>
+
+<ul>
+<li>Summarize the history of computing</li>
+<li>Can you say a few sentences that describe fundamental hardware and software concepts</li>
+<li>Explain how the JVM translates Java code into executable code</li>
+<li>Explain Object-Oriented Programming concepts such as objects, classes, inheritance and polymorphism</li>
+<li>Write simple programs using basic Java concepts</li>
+<li>Describe and use primitive data types in Java</li>
+<li>Describe and use logical and relational operators and compare Boolean expressions</li>
+<li>Explain and use various control structures such as methods, decision statements, and loops</li>
+<li>Use exception handling mechanism</li>
+<li>Use Java input/output class hierarchy to read and write data to and from external files.</li>
+</ul>
+<p><a href='#toc_1'>back to contents</a></p>
+<h1 id="toc_9">Prepwork for Fall 2015 Internship</h1>
+
+<h2 id="toc_10">I. Software design and foundations</h2>
+
+<h3 id="toc_11">Viking Code School Prep</h3>
+
+<p><a href="http://www.vikingcodeschool.com/prep">http://www.vikingcodeschool.com/prep</a></p>
+
+<p>Time estimate to complete: 10 days @ 2-3hrs/day</p>
+
+<p><mark><strong>No sign-up required. This is a free tutorial.</strong></mark></p>
+
+<h3 id="toc_12">Why this course?</h3>
+
+<p>The Viking School is an online web development program that has put together this prep series primarily to assist those interested in applying for their program. It is free for all and is a great intro to what web development is all about. You are not required to complete the whole prep course, but we encourage you to explore the modules and learn any parts that interest you outside of the assigned material!</p>
+
+<h3 id="toc_13">Do this:</h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: right">Module</th>
+<th style="text-align: left">Tasks</th>
+<th style="text-align: left">Time to Complete</th>
+<th style="text-align: right">Done</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: right"><strong>Design</strong></td>
+<td style="text-align: left">&ndash;</td>
+<td style="text-align: left"></td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Intro</td>
+<td style="text-align: left">all</td>
+<td style="text-align: left">2.5 hours</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">UX</td>
+<td style="text-align: left">all</td>
+<td style="text-align: left">3-4 hours</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Visual Design</td>
+<td style="text-align: left">12, 13, 14, 17, 19</td>
+<td style="text-align: left">2-3 hours</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Mockups</td>
+<td style="text-align: left">21, 23</td>
+<td style="text-align: left">2 hours</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Project</td>
+<td style="text-align: left">We will do together</td>
+<td style="text-align: left"><mark>June 11</mark></td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Software Engineering</strong></td>
+<td style="text-align: left">&ndash;</td>
+<td style="text-align: left"></td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Intro</td>
+<td style="text-align: left">all</td>
+<td style="text-align: left">&frac12; hour</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Principles of Software Engineering</td>
+<td style="text-align: left">all</td>
+<td style="text-align: left">4-6 hours</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Intro to Agile Development</td>
+<td style="text-align: left">all</td>
+<td style="text-align: left">8-10 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Pseudocoding and Good Software Design</td>
+<td style="text-align: left">all</td>
+<td style="text-align: left">8-10 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Conclusion</td>
+<td style="text-align: left">all</td>
+<td style="text-align: left">1 hr</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">Project</td>
+<td style="text-align: left">We will do together</td>
+<td style="text-align: left"><mark>June 11</mark></td>
+<td style="text-align: right"></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_14">Projects</h3>
+
+<p>At the end of this section, we will meet to do the <em>Design project: Tearing Down and Mocking Up Facebook</em> as well as the <em>Software Engineering project: Applied Engineering</em> together. This foundation knowledge will prepare us to think about how to design web apps for clients.</p>
+
+<h2 id="toc_15">II. Computer Science &amp; Java</h2>
+
+<h3 id="toc_16">Saylor Academy CS 101</h3>
+
+<p><a href="https://learn.saylor.org/course/view.php?id=6">https://learn.saylor.org/course/view.php?id=6</a></p>
+
+<p>Time estimate to complete: 35 days @ 3-4 hours/day</p>
+
+<p><mark><strong>Sign-up recommended, but not required. This is a free tutorial.</strong></mark></p>
+
+<p><em>We will walk through sign up and enrollment in the course during the luncheon. If you miss the luncheon, contact Amanda at <a href="mailto:amanda.walter@octanner.com">amanda.walter@octanner.com</a> if you need help registering.</em></p>
+
+<h3 id="toc_17">Why this course?</h3>
+
+<p>Saylor Academy is a nonprofit academy of open learning that offers courses in numerous subjects. We will be enrolling in the CS 101: Introduction to Computer Science I. <mark>You are not required to sign up, but you will not be able to access quizzes if you are not logged in.</mark> </p>
+
+<h3 id="toc_18">Do this:</h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: right">Unit</th>
+<th style="text-align: left">Topic</th>
+<th style="text-align: left">Time to Complete</th>
+<th style="text-align: right">Done</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: right">1</td>
+<td style="text-align: left">Introduction</td>
+<td style="text-align: left">16.75 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">2</td>
+<td style="text-align: left">Intro to OOP</td>
+<td style="text-align: left">10 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">3</td>
+<td style="text-align: left">Java fundamentals</td>
+<td style="text-align: left">22 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">4</td>
+<td style="text-align: left">Relational &amp; logical operators in Java</td>
+<td style="text-align: left">9 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">5</td>
+<td style="text-align: left">Control structures</td>
+<td style="text-align: left">20.5 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">6</td>
+<td style="text-align: left">User defined methods</td>
+<td style="text-align: left">11.5 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">7</td>
+<td style="text-align: left">Arrays</td>
+<td style="text-align: left">7 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+<tr>
+<td style="text-align: right">8</td>
+<td style="text-align: left">Java I/O and exception handling</td>
+<td style="text-align: left">11.75 hrs</td>
+<td style="text-align: right"></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_19">Projects</h3>
+
+<p>As we learn Java, we can decide on a short project to do together- perhaps a simple game? At the end of this section we will have a project day that will present some coding-interview style problems that we will solve in small groups- speed dating style!</p>
+
+<h2 id="toc_20">III. JS, jQuery &amp; Angular</h2>
+
+<p><strong>Time estimate to complete: 15 days @ 3-4 hours/day</strong></p>
+
+<p>We will be using Angular in the fall, so our final section will cover what you will need to be comfortable with by the time the internship starts. You will have some options on which program you learn from, choose the one that appeals to you! </p>
+
+<p>If you are unfamiliar with Code School ad codecademy, Code School offerst short video with follow-along examples and short assessments. The videos are themed and usually interesting! </p>
+
+<p>Codecademy is more reading as you do instruction, the advantage being that introductory material is written for your leisure, instead of video form. </p>
+
+<p>Pluralsight offers really high quality learning content. We will make sure everyone has a 1-free-month supscription pass to use on the courses. As long as you don&rsquo;t activate the code before we start the 3rd module, you will not have to pay anything for Pluralsight access.</p>
+
+<h3 id="toc_21">Do this:</h3>
+
+<ol>
+<li><p><strong>JavaScript</strong>: <em>(pick one of these three)</em></p>
+
+<ol>
+<li><p>You have experience in JS already and feel comfortable using vanilla JS in short programs.</p></li>
+<li><p>Codecademy JS track <em>(10 hours to complete)</em></p>
+
+<p><a href="http://www.codecademy.com/en/tracks/javascript">http://www.codecademy.com/en/tracks/javascript</a></p></li>
+<li><p>Pluralsight &quot;Quickstart JavaScript Vol. 1-3) <em>(6-8 hours to complete)</em></p>
+
+<p><a href="http://www.pluralsight.com/courses/quick-start-javascript-1-1870">http://www.pluralsight.com/courses/quick-start-javascript-1-1870</a></p>
+
+<p><a href="http://www.pluralsight.com/courses/quick-start-javascript-2-1917">http://www.pluralsight.com/courses/quick-start-javascript-2-1917</a></p>
+
+<p><a href="http://www.pluralsight.com/courses/quick-start-javascript-3-1918">http://www.pluralsight.com/courses/quick-start-javascript-3-1918</a></p></li>
+</ol></li>
+<li><p><strong>jQuery</strong>: <em>(pick one of these three)</em> </p>
+
+<ol>
+<li><p>codecademy jQuery track <em>(3 hours)</em></p>
+
+<p><a href="http://www.codecademy.com/en/tracks/jquery">http://www.codecademy.com/en/tracks/jquery</a></p></li>
+<li><p>Code School <em>Try jQuery</em> <em>(2-3 hours)</em></p>
+
+<p><a href="https://www.codeschool.com/courses/try-jquery">https://www.codeschool.com/courses/try-jquery</a></p></li>
+<li><p>Pluralsight <em>jQuery UI</em> <em>(~ 2 hours)</em></p>
+
+<p><a href="http://www.pluralsight.com/courses/jqueryui">http://www.pluralsight.com/courses/jqueryui</a></p></li>
+</ol></li>
+<li><p><strong>JSON</strong>:</p>
+
+<ol>
+<li><p>YouTube <em>What is JSON?</em> (5 minutes)</p>
+
+<p><a href="https://www.youtube.com/watch?v=vrPBtQAxw7c">https://www.youtube.com/watch?v=vrPBtQAxw7c</a></p></li>
+</ol></li>
+<li><p><strong>Angular &amp; REST APIs</strong> <em>(do all, except where a choice is indicated)</em></p>
+
+<ol>
+<li><p>WebConcepts video <em>REST API concepts and examples</em> (10 minutes)</p>
+
+<p><a href="https://www.youtube.com/watch?v=7YcW25PHnAA">https://www.youtube.com/watch?v=7YcW25PHnAA</a></p></li>
+<li><p><em>(pick one)</em></p>
+
+<ol>
+<li><p>Pluralsight <em>Five Essential Tools for Building REST APIs</em> (3 hours)</p>
+
+<p><a href="http://www.pluralsight.com/courses/five-essential-tools-building-rest-api">http://www.pluralsight.com/courses/five-essential-tools-building-rest-api</a></p></li>
+<li><p>Pluralsight  <em>REST fundamentals</em> (3 hours)</p>
+
+<p><a href="http://www.pluralsight.com/courses/rest-fundamentals">http://www.pluralsight.com/courses/rest-fundamentals</a></p></li>
+</ol></li>
+<li><p><em>(pick one)</em></p>
+
+<ol>
+<li><p>Codecademy Angular (5 hours) &lt;&ndash; recommended</p>
+
+<p><a href="http://www.codecademy.com/en/learn/learn-angularjs">http://www.codecademy.com/en/learn/learn-angularjs</a> </p></li>
+<li><p>Code School Angular (5 hours)
+<mark>You will need to take both the free level <em>Shaping up with Angular.js</em> and <em>Staying Sharp with Angular.js</em>, for which you will need a paid membership ($29/month).</mark></p>
+
+<p><a href="https://www.codeschool.com/courses/shaping-up-with-angular-js">https://www.codeschool.com/courses/shaping-up-with-angular-js</a>
+<a href="https://www.codeschool.com/courses/staying-sharp-with-angular-js">https://www.codeschool.com/courses/staying-sharp-with-angular-js</a></p></li>
+</ol></li>
+<li><p>Pluralsight: <em>TDD as a design tool</em> (2 hours)</p>
+
+<p><a href="http://www.pluralsight.com/courses/tdd-as-design-tool">http://www.pluralsight.com/courses/tdd-as-design-tool</a></p></li>
+<li><p>Pluralsight: <em>Play by Play: Learning Angular.js</em> (1.5 hours)</p>
+
+<p><a href="http://www.pluralsight.com/courses/play-by-play-learning-angularjs-ken-cenerelli-john-papa">http://www.pluralsight.com/courses/play-by-play-learning-angularjs-ken-cenerelli-john-papa</a></p></li>
+<li><p>Pluralsight: <em>Angular Best Practices</em> (5 hours)</p>
+
+<p><a href="http://www.pluralsight.com/courses/angular-best-practices">http://www.pluralsight.com/courses/angular-best-practices</a></p></li>
+<li><p>Pluralsight: <em>Play by Play: Angular testing</em> (2 hours)</p>
+
+<p><a href="http://www.pluralsight.com/courses/play-by-play-angular-testing-papa-bell">http://www.pluralsight.com/courses/play-by-play-angular-testing-papa-bell</a></p></li>
+<li><p>Pluralsight: <em>Angular JS Patterns: Clean Code</em> (3.5 hours)</p>
+
+<p><a href="http://www.pluralsight.com/courses/angularjs-patterns-clean-code">http://www.pluralsight.com/courses/angularjs-patterns-clean-code</a></p></li>
+</ol></li>
+</ol>
+<p><a href='#toc_1'>back to contents</a></p>
+
+</body>
+
+</html>
