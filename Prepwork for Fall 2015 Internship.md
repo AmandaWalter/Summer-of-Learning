@@ -22,26 +22,28 @@ Once again, welcome! We hope you are as excited to get started as we are!
 ####Discussion/ speaker days will allow time for questions to be answered/ pair work with mentors as well as a group discussion about a cool topic.
 Date | Plan | Topic|
 ---: |:---: | :---|
-June 4 | Discussion / speaker
-June 11 | Project (2 in 1 day!) |*Design project: Tearing Down and Mocking Up Facebook*
- ...| ...|*Software Engineering project: Applied Engineering*
- June 18| Discussion / speaker
- June 25| Discussion / speaker
- July 2 | No meeting for holiday|
- July 9| Discussion / speaker
- July 16|Discussion / speaker
- July 23 | Project | *Make a game in Java*
- July 30| Discussion / speaker |
- August 6| Project |*Non-intimidating coding-interview style group questions*
- August 13| Discussion / speaker
- August 20 |Discussion / speaker
- August 27| Project | *Angular app- group input to decide topic*
+June 4 | Discussion | **Welcome!** & open topics
+June 11 | Project (2 in 1 day!) |**Design project:** Tearing down and mocking up a client's website
+ ...| ...|**Software Engineering project:** Making user stories, project management and pseudo-coding
+ June 18| Discussion |**Get ready to learn Java!** Environment setup, learning strategies 
+ June 25| Discussion | **Apprenticeship Patterns** How good developers teach themselves.
+ July 2 | No meeting for holiday| Maybe have a study group this day? Come with questions, or we can do some exercises together.
+ July 9| Discussion | **Design Patterns** Thinking about software design and architecture.
+ July 16|Discussion | TBD
+ July 23 | Project | **Make a game in Java**
+ July 30| Discussion | TBD
+ August 6| Project |**Round-robin Java problems**
+ August 13| Discussion | TBD
+ August 20 |Discussion | TBD
+ August 27| Project | **Angular app- group input to decide topic**
+ 
+
 #Knowledge Expectations
 When we begin the internship in the Fall, our goal is to have everyone on the same base level. This will aid in pairing, so that when you pair, the mentor will know where your knowledge is and can set goals and expectations from there.
 
 If you follow this guide and the provided calendar, you will have met the expectations we have for interns entering this Fall. 
 
-If you begin to feel like you are behind, or having to leave things 'half-finished' to keep up with the calendar, reach out to a mentor or the intern lead early and often! Treat your learning the way you would an Agile project. Keeping conversations and evaluation short and frequent can save much headache and wasted time!
+If you begin to feel like you are behind, or having to leave things 'half-finished' to keep up with the calendar, reach out to a mentor or Amanda early and often! Treat your learning the way you would an Agile project. Self-evaluate and have conversations with others early and often to avoid large problems down the road!
 
 ----
 
@@ -62,7 +64,7 @@ If you begin to feel like you are behind, or having to leave things 'half-finish
 The Design Process
 
 - Describe the design process
-- How does the designer involove the client/user in the design process?
+- How does the designer involve the client/user in the design process?
 * What are some ways of communicating with a user to understand their needs & goals?
 * What is friction, as it applies to design?
 * What tools exist to help the designer reduce friction?
@@ -79,7 +81,7 @@ On Visual Design
 On Mockups
 
 * What is a mockup? How are they used in design?
-* Think about the tradeoff between time spent planning design vs. designing as you go. Consider the clien't reactions to these methods as well.
+* Think about the tradeoff between time spent planning design vs. designing as you go. Consider the client reactions to these methods as well.
 * Use mockups to plan different kinds of web sites. (commerce, personal, large company, small business, tools/ apps)
 
 On the Principles of Software Engineering
@@ -89,7 +91,7 @@ On the Principles of Software Engineering
 
 On Agile Development
 
-* What were some shorcomings of the "old" project management techniques?
+* What were some shortcomings of the "old" project management techniques?
 * How does Agile development address these problems?
 * Describe XP and some techniques employed by this method
 * What is SCRUM?
@@ -107,7 +109,20 @@ On Pseudocoding and Good Software Design
 * What are the SOLID principles of Object-Oriented software design?
 
 
-#Introductory Computer Science##Learning Outcomes:- Summarize the history of computing- Can you say a few sentences that describe fundamental hardware and software concepts- Explain how the JVM translates Java code into executable code- Explain Object-Oriented Programming concepts such as objects, classes, inheritance and polymorphism- Write simple programs using basic Java concepts- Describe and use primitive data types in Java- Describe and use logical and relational operators and compare Boolean expressions- Explain and use various control structures such as methods, decision statements, and loops- Use exception handling mechanism- Use Java input/output class hierarchy to read and write data to and from external files.
+#Introductory Computer Science
+
+##Learning Outcomes:
+###Unit 1
+- Summarize the history of computing
+- Can you say a few sentences that describe fundamental hardware and software concepts
+- Explain how the JVM translates Java code into executable code
+- Explain Object-Oriented Programming concepts such as objects, classes, inheritance and polymorphism
+- Write simple programs using basic Java concepts
+- Describe and use primitive data types in Java
+- Describe and use logical and relational operators and compare Boolean expressions
+- Explain and use various control structures such as methods, decision statements, and loops
+- Use an exception handling mechanism
+- Use Java input/output class hierarchy to read and write data to and from external files.
 
 # Prepwork for Fall 2015 Internship
 ## I. Software design and foundations
@@ -115,13 +130,18 @@ On Pseudocoding and Good Software Design
 
 [http://www.vikingcodeschool.com/prep](http://www.vikingcodeschool.com/prep)
 
-Time estimate to complete: 10 days @ 2-3hrs/day
+Timeline | --
+:--- | :---
+Time estimate to complete | **10 days @ 2-3hrs/day**
+Begin| **June 1**
+Project day| **June 11**
+Complete by| **June 12**
 
 ==**No sign-up required. This is a free tutorial.**==
 ### Why this course?
 The Viking School is an online web development program that has put together this prep series primarily to assist those interested in applying for their program. It is free for all and is a great intro to what web development is all about. You are not required to complete the whole prep course, but we encourage you to explore the modules and learn any parts that interest you outside of the assigned material!
 ###Do this:
-	
+  
 Module | Tasks | Time to Complete |Done
 ---: |:--- | :--- | ---:
 **Design** | -- |
@@ -139,13 +159,18 @@ Conclusion | all | 1 hr
 Project | We will do together | ==June 11==
 
 ###Projects
-At the end of this section, we will meet to do the *Design project: Tearing Down and Mocking Up Facebook* as well as the *Software Engineering project: Applied Engineering* together. This foundation knowledge will prepare us to think about how to design web apps for clients.
+At the end of this section, we will meet to work on a mock client project. We will have an opportunity to put into practice our learning and see how these processes work out in the real world. This foundation knowledge will prepare us to think about how we can design software for clients.
 
 ## II. Computer Science & Java 
 ###Saylor Academy CS 101
 [https://learn.saylor.org/course/view.php?id=6](https://learn.saylor.org/course/view.php?id=6)
 
-Time estimate to complete: 35 days @ 3-4 hours/day
+Timeline | --
+:--- | :---
+Time estimate to complete | **35 days @ 3-4 hours/day**
+Begin| **June 15**
+Project days| **June 23 & August 6**
+Complete by| **August 7**
 
 ==**Sign-up recommended, but not required. This is a free tutorial.**==
 
@@ -166,19 +191,25 @@ Unit |  Topic |Time to Complete |Done
 8 | Java I/O and exception handling | 11.75 hrs
 
 ###Projects
-As we learn Java, we can decide on a short project to do together- perhaps a simple game? At the end of this section we will have a project day that will present some coding-interview style problems that we will solve in small groups- speed dating style!
+As we learn Java, we can decide on a short project to do together- perhaps a simple game? At the end of this section we will have a project day that will present some coding-interview style problems that we will solve in small groups round-robin style!
 
 ##III. JS, jQuery & Angular
 
-**Time estimate to complete: 15 days @ 3-4 hours/day**
+Timeline | --
+:--- | :---
+Time estimate to complete | **15 days @ 3-4 hours/day**
+Begin| **August 10**
+Project days| **August 27, possibly other days**
+Complete by| **August 27**
+
 
 We will be using Angular in the fall, so our final section will cover what you will need to be comfortable with by the time the internship starts. You will have some options on which program you learn from, choose the one that appeals to you! 
 
-If you are unfamiliar with Code School ad codecademy, Code School offerst short video with follow-along examples and short assessments. The videos are themed and usually interesting! 
+If you are unfamiliar with Code School and codecademy, Code School offers short video with follow-along examples and short assessments. The videos are themed and usually interesting! 
 
 Codecademy is more reading as you do instruction, the advantage being that introductory material is written for your leisure, instead of video form. 
 
-Pluralsight offers really high quality learning content. We will make sure everyone has a 1-free-month supscription pass to use on the courses. As long as you don't activate the code before we start the 3rd module, you will not have to pay anything for Pluralsight access.
+Pluralsight offers really high quality learning content. We will make sure everyone has a 1-free-month subscription pass to use on the courses. As long as you don't activate the code before we start the 3rd module, you will not have to pay anything for Pluralsight access.
 
 ###Do this:
 1. **JavaScript**: *(pick one of these three)*
@@ -247,4 +278,5 @@ Pluralsight offers really high quality learning content. We will make sure every
         [http://www.pluralsight.com/courses/play-by-play-angular-testing-papa-bell](http://www.pluralsight.com/courses/play-by-play-angular-testing-papa-bell)
     16. Pluralsight: *Angular JS Patterns: Clean Code* (3.5 hours)
     
-        [http://www.pluralsight.com/courses/angularjs-patterns-clean-code](http://www.pluralsight.com/courses/angularjs-patterns-clean-code)
+        [http://www.pluralsight.com/courses/angularjs-patterns-clean-code](http://www.pluralsight.com/courses/angularjs-patterns-clean-code)
+
